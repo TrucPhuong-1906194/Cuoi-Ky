@@ -188,7 +188,7 @@ img {
     padding-top: 80px;
     background:
     linear-gradient(135deg, rgba(159, 15, 15, 0.9), rgba(255, 227, 198, 0.8)),
-    url("./background.jpg");
+    url("./img/background.jpg");
 
     background-size: cover;
     background-position: center;
@@ -597,7 +597,7 @@ img {
 
     background:
     linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url("./banner.jpg");
+    url("./img/banner.jpg");
 
     background-size:cover;
     background-position:center;
