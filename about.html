@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu - Gà Vui</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .about-hero {
+            background: linear-gradient(rgba(64, 3, 3, 0.6), rgba(64, 3, 3, 0.6)), url('./img/combo.jpg'); 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            }
+        .about-content { padding: 60px 0; line-height: 1.8; }
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+        .about-text h2 { color: #ff4757; margin-bottom: 20px; }
+        .about-img img { width: 100%; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        @media (max-width: 768px) { .about-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-drumstick-bite"></i> KÊ <span> ÉP XA </span>
+            </a>
+            <nav class="navbar">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html" style="color: #ff4757;">Giới thiệu</a>
+                <a href="index.html#products">Thực đơn</a>
+                <a href="index.html#footer">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-hero">
+        <h1>ABOUT US</h1>
+    </section>
+
+    <section class="about-content container">
+        <div class="about-grid">
+            <div class="about-img">
+                <img src="./img/background.jpg" alt="Về Gà KE EP XA">
+            </div>
+            <div class="about-text">
+                <h2>Câu chuyện của Kê Ép Xa</h2>
+                <p>Khởi nguồn từ niềm đam mê với ẩm thực đường phố, Kê Ép Xa ra đời với sứ mệnh mang đến những miếng gà rán "vàng giòn bên ngoài, mọng nước bên trong".</p>
+                <p>Chúng tôi tin rằng một bữa ăn ngon không chỉ nằm ở hương vị, mà còn ở niềm vui khi chia sẻ cùng những người thân yêu. Đó là lý do tại sao mỗi công thức tại đây đều được tinh chỉnh tỉ mỉ từ những nguyên liệu tươi sạch nhất mỗi ngày.</p>
+                <p>Với không gian ấm cúng và dịch vụ tận tâm, Gà Vui hy vọng sẽ là điểm dừng chân lý tưởng cho những tín đồ yêu gà rán tại TP. Hồ Chí Minh.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-box">
+                    <h3>Gà Vui</h3>
+                    <p>Chuyên cung cấp gà rán chất lượng cao, giòn tan đậm vị.</p>
+                </div>
+                <div class="footer-box">
+                    <h3>Liên Kết</h3>
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="about.html">Giới thiệu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <h3>Liên Hệ</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> LSTS, Phường Tân Hưng, Quận 7</p>
+                    <p><i class="fa-solid fa-phone"></i> 1900 xxxx</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
