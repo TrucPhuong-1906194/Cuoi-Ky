@@ -697,11 +697,14 @@ img {
     padding: 40px;
     border: 1px solid black;
     gap: 20px;
+
 }
 
 #form-details form {
     width: calc(60% - 20px);
     min-width: 280px;
+    width: 50%;
+    max-width: 1200px;
 }
 
 #form-details .people {
@@ -849,6 +852,10 @@ img {
     #form-details .people > div {
         width: calc(50% - 10px);
     }
+
+    .map iframe {
+        height: 200px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -890,4 +897,9 @@ img {
         align-items: flex-start;
         gap: 6px;
     }
+}
+
+iframe {
+  width: 100%;
+  border: 0;
 }
