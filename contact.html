@@ -1,11 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
+    <title>Gà Vui - Hương Vị Vàng Giòn</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-drumstick-bite"></i> KÊ <span> ÉP XA </span>
+            </a>
+            <nav class="navbar">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="product.html">Thực đơn </a>
+                <a href="new-products.html">Mới nhất</a>
+                <a class="active" href="contact.html">Liên hệ</a>
+                <a href="shop.html">Cửa hàng</a>
+            </nav>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-user"></i> 
+            </div>
+        </div>
+    </header>
+<!-- Phần nội dung -->
+ <section class="hero">
+        <div class="hero-content">
+            <h1>Giòn Tan <span class="highlight">Đậm Vị</span></h1>
+            <p>Thưởng thức bữa ăn ngon nhất cùng gia đình và bạn bè. Giao hàng nhanh chóng tận nơi.</p>
+            <a href="#products" class="btn btn-primary">Đặt Ngay</a>
+        </div>
+ </section>
+ 
+ <section id="page-header" class="about-header">
+    <h2>Liên hệ chúng tôi</h2>
+    <p>Kê Ép Xa luôn sẵn sàng hỗ trợ!</p>
+ </section>
+
+ <section id="contact-details" class="section-p1">
+    <div class="details">
+         <span>Thông tin liên hệ</span>
+         <h2>Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ, đừng ngần ngại liên hệ với chúng tôi qua các kênh sau:</h2>
+        <h3>Địa chỉ</h3>
+        <div>
+            <li>
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <p>Số 1, đường Raymondienne, Phường Tân Mỹ, Thành phố Hồ Chí Minh.</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-phone"></i>
+                <p>1900 xxxx</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-envelope"></i>
+                <p>info@garankeepxa.com</p>
+            </li>
+             <li>
+                <i class="fa-solid fa-clock"></i>
+                <p>8:00 - 22:00 (T2 - CN)</p>
+            <li></li>
+        </div>
+        <!-- <p>Số 1, đường Raymondienne, Phường Tân Mỹ, Thành phố Hồ Chí Minh.</p> -->
+    </div>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7840.151334052626!2d106.72228847281802!3d10.728647300000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525f943f9fc6b%3A0x7f9935989eebc632!2zVHLGsOG7nW5nIFRIQ1MgdsOgIFRIUFQgxJBpbmggVGhp4buHbiBMw70gKGPGoSBz4bufIFRIUFQp!5e0!3m2!1svi!2s!4v1774797642415!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+ </section>
+ 
+ <section id="form-details">
+    <div class="container">
+        <h2>Form liên hệ</h2>
+        <form>
+            <input type="text" placeholder="Tên của bạn">
+            <input type="text" placeholder="Email của bạn">
+            <input type="text" placeholder="Subjects">
+            <textarea placeholder="Lời nhắn" cols="30" rows="10"></textarea>
+            <button class="normal" type="submit">Gửi</button>
+        </form>
+        <div class="people">
+            <div>
+                <img src="./img/people/3.png" alt="Hình ảnh liên hệ">
+                <p><span>Bảo Lan</span><br>Chuyên viên chăm sóc khách hàng <br>
+                0909 123 456 <br> Email: bao.lan@garankeepxa.com</p>
+            </div>
+
+            <div>
+                <img src="./img/people/2.png" alt="Hình ảnh liên hệ">
+                <p><span>Quỳnh Anh</span><br>Chuyên viên bảo trì trang  <br>
+                0909 123 678 <br> Email: quynh.anh@garankeepxa.com</p>
+            </div>
+
+            <div>
+                <img src="./img/people/1.jpg" alt="Hình ảnh liên hệ">
+                <p><span>Trúc Phương</span><br>Quản lí cấp cao của công ty <br>
+                0909 123 789 <br> Email: truc.phuong@garankeepxa.com</p>
+            </div>
+            
+        </div>
+    </div>
+ </section>
+ <!-- Phần trích index -->
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Đăng Ký Nhận Tin</h2>
+                <p>Nhận ngay voucher 20% cho đơn hàng đầu tiên</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Nhập email của bạn...">
+                    <button type="submit">Đăng Ký</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-box">
+                    <h3>Gà Vui</h3>
+                    <p>Chuyên cung cấp gà rán chất lượng cao, giòn tan đậm vị. Phục vụ tận tâm, giao hàng nhanh chóng.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h3>Liên Kết Nhanh</h3>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="about.html">Giới thiệu</a></li>
+                        <li><a href="#products">Thực đơn</a></li>
+                        <li><a href="#new-products">Món mới</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <h3>Chính Sách</h3>
+                    <ul>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Phương thức thanh toán</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <h3>Liên Hệ</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> LSTS, Phường Tân Hưng, TP. Hồ Chí Minh</p>
+                    <p><i class="fa-solid fa-phone"></i> 1900 xxxx</p>
+                    <p><i class="fa-solid fa-envelope"></i> info@garankeepxa.com</p>
+                    <p><i class="fa-solid fa-clock"></i> 8:00 - 22:00 (T2 - CN)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gà Vui. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

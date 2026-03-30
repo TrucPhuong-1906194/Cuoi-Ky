@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+
     <header class="header">
         <div class="container">
             <a href="#" class="logo">
@@ -19,7 +20,7 @@
                 <a href="product.html">Thực đơn </a>
                 <a href="new-products.html">Mới nhất</a>
                 <a href="contact.html">Liên hệ</a>
-                <a href="shop.html">Cửa hàng</a>
+                <a class="active" href="shop.html">Cửa hàng</a>
             </nav>
             <div class="icons">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -29,42 +30,13 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Giòn Tan <span class="highlight">Đậm Vị</span></h1>
-            <p>Thưởng thức bữa ăn ngon nhất cùng gia đình và bạn bè. Giao hàng nhanh chóng tận nơi.</p>
-            <a href="#products" class="btn btn-primary">Đặt Ngay</a>
-        </div>
+    <!-- Home Page -->
+    <section id="page-header">
     </section>
 
-  
-    <section class="features container">
-        <div class="feature-box">
-            <i class="fa-solid fa-truck-fast"></i>
-            <h3>Miễn Phí Vận Chuyển</h3>
-            <p>Cho đơn hàng từ 200k trở lên</p>
-        </div>
-        <div class="feature-box">
-            <i class="fa-solid fa-headset"></i>
-            <h3>Hỗ trợ 24/7</h3>
-            <p>Gọi ngay: 1900 xxxx</p>
-        </div>
-        <div class="feature-box">
-            <i class="fa-solid fa-tags"></i>
-            <h3>Giảm Giá 20%</h3>
-            <p>Vào ngày thứ 6 hàng tuần</p>
-        </div>
-        <div class="feature-box">
-            <i class="fa-solid fa-leaf"></i>
-            <h3>Tươi Ngon</h3>
-            <p>Nguyên liệu sạch 100%</p>
-        </div>
-    </section>
-
- 
+ <!-- Products -->
     <section class="products section-padding" id="products">
         <div class="container">
-            <h2 class="section-title">Món Ăn Nổi Bật</h2>
             <div class="product-grid">
                 <div class="product-card">
                     <div class="product-img">
@@ -131,22 +103,6 @@
                     <button class="btn btn-outline">Thêm vào giỏ</button>
                 </div>
             </div>
-        </div>
-    </section>
-
-<section class="sm-banner">
-    <div class="banner-box">
-        <div class="banner-content">
-            <h3>Thứ Sáu Siêu Sale</h3>
-            <p>Giảm 30% gà rán size lớn</p>
-            <button class="btn btn-white">Xem ngay</button>
-        </div>
-    </div>
-</section>
-
-    <section class="new-products section-padding" id="new-products">
-        <div class="container">
-            <h2 class="section-title">Món Mới</h2>
             <div class="product-grid">
                 <div class="product-card">
                     <div class="product-img">
@@ -188,6 +144,15 @@
         </div>
     </section>
 
+    <!-- Phân Trang -->
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href=""><i class="fa fa-long-arrow-alt-right"></i></a>
+    </section>
+ 
+
+    <!-- Newsletter -->
     <section class="newsletter">
         <div class="container">
             <div class="newsletter-content">
@@ -201,6 +166,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer" id="footer">
         <div class="container">
             <div class="footer-content">
@@ -217,7 +183,7 @@
                 <div class="footer-box">
                     <h3>Liên Kết Nhanh</h3>
                     <ul>
-                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="#">Trang chủ</a></li>
                         <li><a href="about.html">Giới thiệu</a></li>
                         <li><a href="#products">Thực đơn</a></li>
                         <li><a href="#new-products">Món mới</a></li>
@@ -242,10 +208,9 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p> 2024 Gà Vui. All rights reserved.</p>
+                <p>&copy; 2024 Gà Vui. All rights reserved.</p>
             </div>
         </div>
     </footer>
-
 </body>
 </html>
