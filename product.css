@@ -31,7 +31,7 @@ body {
 }
 
 .product img {
-  background-image: url('');
+  <img src="./GaRanProduct" alt="mo ta anh">
   width: 350px;
   border: 5px solid #000;
   box-shadow: 10px 10px #000;
