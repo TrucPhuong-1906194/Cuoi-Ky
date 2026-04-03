@@ -832,7 +832,7 @@ img {
 
 /* Style cho contact page header */
 #page-header {
-    background: linear-gradient(135deg, rgba(176, 32, 24, 0.9), rgba(245, 124, 0, 0.85)), url("./img/contact-bg.jpg") center/cover no-repeat;
+    background: linear-gradient(135deg, rgba(176, 32, 24, 0.9), rgba(245, 124, 0, 0.85)), url("../img/contact-bg.jpg") center/cover no-repeat;
     color: var(--white);
     text-align: center;
     padding: 80px 20px;
@@ -999,7 +999,7 @@ iframe {
     text-decoration: underline;
 }
 .about-hero {
-  background: linear-gradient(rgba(64, 3, 3, 0.6), rgba(64, 3, 3, 0.6)), url('./img/combo.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(64, 3, 3, 0.6), rgba(64, 3, 3, 0.6)), url('../img/combo.jpg') center/cover no-repeat;
   height: 300px;
   display: flex;
   align-items: center;
