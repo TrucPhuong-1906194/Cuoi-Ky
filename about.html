@@ -7,23 +7,46 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        .about-hero {
-            background: linear-gradient(rgba(64, 3, 3, 0.6), rgba(64, 3, 3, 0.6)), url('./img/combo.jpg'); 
-            background-position: center; 
-            background-repeat: no-repeat; 
-            background-size: cover; 
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center; 
-            color: white;
-            text-align: center;
-            }
-        .about-content { padding: 60px 0; line-height: 1.8;}
-        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;}
-        .about-text h2 { color: #ff4757; margin-bottom: 20px;}
-        .about-img img { width: 100%; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);}
-        marquee { background-color: #ffe3e9; width: 100%; padding: 10px 0; font-weight: 600;}
+       .about-hero {
+  background: linear-gradient(rgba(64, 3, 3, 0.6), rgba(64, 3, 3, 0.6)), url('./img/combo.jpg') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.about-content { 
+  padding: 60px 0; 
+  line-height: 1.8; 
+}
+
+.about-grid { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px; 
+  align-items: center; 
+}
+
+.about-text h2 { 
+  color: #ff4757; 
+  margin-bottom: 20px; 
+}
+
+.about-img img { 
+  width: 100%; 
+  border-radius: 15px; 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+}
+
+marquee { 
+  background: #ffe3e9; 
+  width: 100%; 
+  padding: 10px 0; 
+  font-weight: 600; 
+}
+
         @media (max-width: 768px) { .about-grid { grid-template-columns: 1fr;}}
     </style>
 </head>

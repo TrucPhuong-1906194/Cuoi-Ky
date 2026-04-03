@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+.header {
+  background: #400303;
+  padding: 1rem 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #ff4757;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #ff4757;
+}
+
+.about-header {
+  background: linear-gradient(rgba(64, 3, 3, 0.6), rgba(64, 3, 3, 0.6)), 
+              url("./img/gà\ rán.jpg") center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.about-header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.about-header p {
+  font-size: 1.1rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background: #ff4757;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #e84118;
+}
+
+
+.footer {
+  background: #400303;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
+.blog-content {
+  padding: 40px 0;
+}
+
+.blog-content img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.blog-content h3 {
+  color: #ff4757;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.blog-content p {
+  margin-bottom: 15px;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+.blog-item {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.blog-img {
+  flex: 1;
+}
+
+.blog-img img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.blog-text {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .blog-item {
+    flex-direction: column;
+  }
+}
