@@ -8,7 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 :root {
     --primary-red: #B02018;
     --primary-orange: #F57C00;
@@ -638,6 +637,53 @@ img {
 .banner-box p{
     font-size:18px;
     margin-bottom:20px;
+}
+
+/* Shop Page */
+#shop-page-header {
+    width: 100vw;                   
+    height: 80vh;                    
+    background-image: url('./img/bg-shop-header.jpg');
+    background-size: cover;          
+    background-position: center;     
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;    */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    /* margin-left: calc(-50vw + 50%);  */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+#shop-page-header h2,
+#shop-page-header p {
+    color: var(--white);
+}
+
+/* Pagination */
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    /* display: inline-block; */
+    text-decoration: none;
+    background-color: var(--primary-red);
+    color: var(--light-bg);
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 #contact-details{
