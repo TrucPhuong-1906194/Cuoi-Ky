@@ -188,7 +188,7 @@ img {
     padding-top: 80px;
     background:
     linear-gradient(135deg, rgba(159, 15, 15, 0.9), rgba(255, 227, 198, 0.8)),
-    url("./img/background.jpg");
+    url("../img/background.jpg");
 
     background-size: cover;
     background-position: center;
@@ -618,7 +618,7 @@ img {
 
     background:
     linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url("./img/banner.jpg");
+    url("../img/banner.jpg");
 
     background-size:cover;
     background-position:center;
@@ -971,7 +971,7 @@ iframe {
 }
 
 .blog-hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./img/bannerblog.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/bannerblog.jpg');
     background-size: cover;
     background-position: center;
     height: 40vh; 
