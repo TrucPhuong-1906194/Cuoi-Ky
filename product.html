@@ -1,35 +1,224 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>Gà Rán Pop Art</title>
-  <link rel="stylesheet" href="./css/product.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực Đơn - Gà Vui - Hương Vị Vàng Giòn</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="./js/main.js" defer></script>
 </head>
-
 <body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-drumstick-bite"></i> KÊ <span> ÉP XA </span>
+            </a>
+            <nav class="navbar">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a class="active" href="product.html">Thực đơn</a>
+                <a href="./blog.html">Blog</a>
+                <a href="contact.html">Liên hệ</a>
+                <a href="shop.html">Cửa hàng</a>
+            </nav>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+    </header>
 
-<div class="bubble">HOT!</div>
+    <section class="about-header">
+        <h2>Thực Đơn Của Chúng Tôi</h2>
+        <p>Khám phá các món ăn ngon từ gà rán đến combo gia đình</p>
+    </section>
 
-<section class="hero">
-  <h1>CRISPY CHICKEN</h1>
-  <p>Giòn rụm – Cay nhẹ – Ăn là ghiền!</p>
-</section>
+    <section class="products section-padding" id="products">
+        <div class="container">
+            <h2 class="section-title">Món Chính</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <span class="hot-tag">HOT</span>
+                        <img src="./img/gà rán.jpg" alt="Gà rán">
+                    </div>
+                    <h3>Gà Rán Giòn</h3>
+                    <p>Giòn tan, thịt mềm mọng nước, tẩm ướp gia vị đặc biệt</p>
+                    <p class="price">49.000đ</p>
+                    <button class="btn btn-outline">Thêm vào giỏ</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="./img/gà viên.jpg" alt="Gà viên">
+                    </div>
+                    <h3>Gà Viên Phô Mai</h3>
+                    <p>Gà viên chiên giòn nhồi phô mai tan chảy bên trong</p>
+                    <p class="price">55.000đ</p>
+                    <button class="btn btn-outline">Thêm vào giỏ</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="./img/burger gà.jpg" alt="Burger gà">
+                    </div>
+                    <h3>Burger Gà Cay</h3>
+                    <p>Bánh burger với thịt gà chiên giòn, sốt cay đặc trưng</p>
+                    <p class="price">39.000đ</p>
+                    <button class="btn btn-outline">Thêm vào giỏ</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="./img/cơm gà.jpg" alt="Cơm gà">
+                    </div>
+                    <h3>Cơm Gà Xào</h3>
+                    <p>Cơm chiên với gà và rau củ theo công thức gia truyền</p>
+                    <p class="price">50.000đ</p>
+                    <button class="btn btn-outline">Thêm vào giỏ</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="product">
-  <img src="https://images.unsplash.com/photo- fried-chicken" alt="gà rán">
+    <section class="new-products section-padding" id="new-products">
+        <div class="container">
+            <h2 class="section-title">Món Mới</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <span class="new-tag">Mới</span>
+                        <img src="./img/gà bơ tỏi.jpg" alt="Gà bơ tỏi">
+                    </div>
+                    <h3>Gà Kem Bơ Tỏi</h3>
+                    <p>Gà chiên giòn phủ kem bơ tỏi thơm nồng</p>
+                    <p class="price">65.000đ</p>
+                    <button class="btn btn-outline">Thêm vào giỏ</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <span class="new-tag">Mới</span>
+                        <img src="./img/gà kem.jpg" alt="Gà phô mai">
+                    </div>
+                    <h3>Gà Phô Mai</h3>
+                    <p>Gà chiên phủ lớp phô mai tan chảy hấp dẫn</p>
+                    <p class="price">35.000đ</p>
+                    <button class="btn btn-outline">Thêm vào giỏ</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <span class="new-tag">Mới</span>
+                        <img src="./img/combo.jpg" alt="Combo">
+                    </div>
+                    <h3>Combo Gia Đình</h3>
+                    <p>Set menu cho 4-6 người với gà rán và khoai tây</p>
+                    <p class="price">199.000đ</p>
+                    <button class="btn btn-outline">Thêm vào giỏ</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <span class="new-tag">Mới</span>
+                        <img src="./img/trààchanh.jpg" alt="Trà chanh">
+                    </div>
+                    <h3>Trà Đá Chanh</h3>
+                    <p>Trà chanh tươi mát, giải khát hoàn hảo</p>
+                    <p class="price">15.000đ</p>
+                    <button class="btn btn-outline">Thêm vào giỏ</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="info">
-    <h2>Gà rán siêu giòn</h2>
-    <p>
-      Lớp vỏ giòn tan, thịt mềm mọng nước,
-      tẩm ướp gia vị đặc biệt theo phong cách Mỹ.
-    </p>
+    <section class="sm-banner">
+        <div class="banner-box">
+            <div class="banner-content">
+                <h3>Thứ Sáu Siêu Sale</h3>
+                <p>Giảm 30% gà rán size lớn</p>
+                <button class="btn btn-white">Xem ngay</button>
+            </div>
+        </div>
+    </section>
 
-    <div class="price">79.000đ</div>
+    <section class="features container">
+        <div class="feature-box">
+            <i class="fa-solid fa-utensils"></i>
+            <h3>Nguyên Liệu Tươi</h3>
+            <p>Gà thả vườn, không chất bảo quản</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa-solid fa-fire"></i>
+            <h3>Chiên Giòn</h3>
+            <p>Công nghệ chiên chân không giữ độ giòn</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa-solid fa-clock"></i>
+            <h3>Giao Nhanh</h3>
+            <p>30 phút nội thành, 1 giờ ngoại thành</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa-solid fa-star"></i>
+            <h3>Đảm Bảo</h3>
+            <p>Hoàn tiền 100% nếu không hài lòng</p>
+        </div>
+    </section>
 
-    <button class="btn">MUA NGAY</button>
-  </div>
-</section>
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Đăng Ký Nhận Tin</h2>
+                <p>Nhận ngay voucher 20% cho đơn hàng đầu tiên</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Nhập email của bạn...">
+                    <button type="submit">Đăng Ký</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-box">
+                    <h3>Gà Vui</h3>
+                    <p>Chuyên cung cấp gà rán chất lượng cao, giòn tan đậm vị. Phục vụ tận tâm, giao hàng nhanh chóng.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h3>Liên Kết Nhanh</h3>
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="about.html">Giới thiệu</a></li>
+                        <li><a href="product.html">Thực đơn</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <h3>Chính Sách</h3>
+                    <ul>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Phương thức thanh toán</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <h3>Liên Hệ</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> LSTS, Phường Tân Hưng, TP. Hồ Chí Minh</p>
+                    <p><i class="fa-solid fa-phone"></i> 1900 xxxx</p>
+                    <p><i class="fa-solid fa-envelope"></i> info@garankeepxa.com</p>
+                    <p><i class="fa-solid fa-clock"></i> 8:00 - 22:00 (T2 - CN)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p> 2024 Gà rán KÊ ÉP XA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
