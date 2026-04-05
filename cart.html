@@ -3,45 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gà Vui - Hương Vị Vàng Giòn</title>
-    <link rel="stylesheet" href="./cart.css">
+    <title>Giỏ Hàng - Kê Ép Xa</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cart.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <i class="fa-solid fa-drumstick-bite"></i> KÊ <span> ÉP XA </span>
             </a>
             <nav class="navbar">
-                <a href="#">Trang chủ</a>
+                <a href="index.html">Trang chủ</a>
                 <a href="about.html">Giới thiệu</a>
-                <a href="#products">Thực đơn </a>
-                <a href="#new-products">Mới nhất</a>
-                <a href="#footer">Liên hệ</a>
+                <a href="product.html">Thực đơn</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Liên hệ</a>
+                <a href="shop.html">Cửa hàng</a>
                 <a class="active" href="cart.html">Giỏ hàng</a>
             </nav>
             <div class="icons">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
-                <i class="fa-solid fa-user"></i> 
+                <i class="fa-solid fa-user"></i>
             </div>
         </div>
     </header>
-<!-- Phần nội dung -->
- <section class="hero">
-        <div class="hero-content">
-            <h1>Giòn Tan <span class="highlight">Đậm Vị</span></h1>
-            <p>Thưởng thức bữa ăn ngon nhất cùng gia đình và bạn bè. Giao hàng nhanh chóng tận nơi.</p>
-            <a href="#products" class="btn btn-primary">Đặt Ngay</a>
-        </div>
- </section>
- 
- <section id="page-header" class="about-header">
-    <h2>Liên hệ chúng tôi</h2>
-    <p>Kê Ép Xa luôn sẵn sàng hỗ trợ!</p>
- </section>
+
+    <!-- Cart Page Header -->
+    <section id="page-header" class="about-header">
+        <h2>Giỏ Hàng Của Bạn</h2>
+        <p>Kiểm tra và thanh toán đơn hàng của bạn</p>
+    </section>
 
 <!-- cart page -->
 <section id="cart" class="section-p1">
@@ -51,59 +46,59 @@
                 <td>LOẠI BỎ</td>
                 <td>HÌNH ẢNH</td>
                 <td>SẢN PHẨM</td>
-                <td>GIÁ BÁN</td>
+                <td>GIÁ</td>
                 <td>SỐ LƯỢNG</td>
-                <td>TỔNG THU</td>
+                <td>TỔNG TIỀN</td>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><a href="#"><i class="far fa-times-circle"></i></a></td>
-                <td><img src="GaRanProduct.jpeg" alt="HÌNH ẢNH SẢN PHẨM"></td>
-                <td>Gà rán giòn</td>
-                <td>GIÁ BÁN</td>
-                <td><input type="number" value="1"></td>
-                <td>GIÁ BÁN</td>
+                <td><img src="img/GaRanProduct.jpeg" alt="Gà rán giòn"></td>
+                <td>Gà rán giòn (1kg)</td>
+                <td>85.000đ</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>85.000đ</td>
             </tr>
             <tr>
                 <td><a href="#"><i class="far fa-times-circle"></i></a></td>
-                <td><img src="GaRanProduct.jpeg" alt="HÌNH ẢNH SẢN PHẨM"></td>
-                <td>Combo Happy</td>
-                <td>GIÁ BÁN</td>
-                <td><input type="number" value="1"></td>
-                <td>GIÁ BÁN</td>
+                <td><img src="img/GaRanProduct.jpeg" alt="Combo Happy"></td>
+                <td>Combo Happy (2 người)</td>
+                <td>150.000đ</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>150.000đ</td>
             </tr>
         </tbody>
     </table>
 </section>
 
 <!-- Cart Add-->
- <section id="cart-add" class="section-p1">
-<div id="coupon">
-    <h3>Áp dụng Mã Giảm Giá</h3>
-    <div>
-        <input type="text" placeholder="Nhập mã giảm giá của bạn">
-        <button class="normal">Áp dụng</button>
+<section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Áp dụng Mã Giảm Giá</h3>
+        <div>
+            <input type="text" placeholder="Nhập mã giảm giá của bạn">
+            <button class="normal">Áp dụng</button>
+        </div>
     </div>
-</div>
-<div id="subtotal">
-    <h3>Tổng Giỏ Hàng</h3>
-    <table>
-        <tr>
-            <td>Tổng thu</td>
-            <td>100.000đ</td>
-        </tr>
-        <tr>
-            <td>Phí chuyển hàng</td>
-            <td>Miễn phí</td>
-        </tr>
-        <tr>
-            <td><strong>Tổng</strong></td>
-            <td><strong>100.000đ</strong></td>
-        </tr>
-    </table>
-    <button class="normal">Tiến hành kiểm tra</button>
-</div>
+    <div id="subtotal">
+        <h3>Tổng Giỏ Hàng</h3>
+        <table>
+            <tr>
+                <td>Tổng sản phẩm</td>
+                <td>235.000đ</td>
+            </tr>
+            <tr>
+                <td>Phí vận chuyển</td>
+                <td>Miễn phí</td>
+            </tr>
+            <tr>
+                <td><strong>Tổng thanh toán</strong></td>
+                <td><strong>235.000đ</strong></td>
+            </tr>
+        </table>
+        <button class="normal">Tiến hành thanh toán</button>
+    </div>
 </section>
 
     <footer class="footer" id="footer">
@@ -151,6 +146,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/main.js"></script>
 
 </body>
 </html
